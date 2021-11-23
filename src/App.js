@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Clock from "./components/Example1";
+import { Form } from "./components/Example1";
+import Greeting from "./components/Example2";
+import NumberList from "./components/NumberList";
+import { numbers } from "./Data/NumberData";
+import { posts } from "./Data/ObjectData";
+import Blog from "./components/Blog";
+import NameForm from "./components/NameForm";
+import Calculator from "./components/TemperatureInput";
+import CountTest from "./components/CountTest";
+import MinutesToHours from "./components/MinutesToHours";
+import MileToKilo from "./components/MileToKilo";
+import SuperConverter from "./components/SuperConverter";
+import BtnApp from "./components/PropsButton";
+import Effect from "./components/EffectPractice";
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     {/* <MinutesToHours /> */}
+     {/* <MileToKilo /> */}
+     {/* <SuperConverter /> */}
+     {/* <BtnApp /> */}
+     <Effect />
     </div>
   );
 }
